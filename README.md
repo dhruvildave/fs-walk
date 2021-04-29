@@ -12,16 +12,18 @@ pnpm: `pnpm add @0xdd/fs-walk`
 
 ## Usage
 
-TypeScript:
-
 ```ts
-import { walk } from '@0xdd/fs-walk';
+import { walk, walkSync } from '@0xdd/fs-walk';
 
 (async () => {
   for await (const i of walk('.')) {
     console.log(i);
   }
 })();
+
+for (const i of walkSync('.', { skip: [/node_modules/, /\.git/] })) {
+  console.log(i.path);
+}
 ```
 
 ## Motivation
