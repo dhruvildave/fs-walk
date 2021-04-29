@@ -1,0 +1,27 @@
+{
+  "name": "@0xdd/fs-walk",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "types": "dist/types/main.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "format": "prettier --write \"**/*.{ts,md,json,yaml}\""
+  },
+  "keywords": [
+    "fs",
+    "recursive"
+  ],
+  "author": "Dhruvil Dave <dhruvil.dave@outlook.com> (https://dhruvildave.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/node": "^15.0.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
