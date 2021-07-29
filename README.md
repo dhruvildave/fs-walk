@@ -30,6 +30,10 @@ for (const i of walkSync('.', { skip: [/node_modules/, /\.git/] })) {
 
 `fs.readdir` does not do recursive traversal of directory tree. The solutions available online sometimes fail to work on large directories due to recursion limits.
 
+## License
+
+Apache-2.0
+
 ## Attribution
 
 Documentation and interface for walk were adapted from Go
