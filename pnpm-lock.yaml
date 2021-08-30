@@ -1,21 +1,21 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/node': ^16.4.6
+  '@types/node': ^16.7.7
   prettier: ^2.3.2
-  typescript: ^4.3.5
+  typescript: ^4.4.2
 
 dependencies:
-  '@types/node': 16.4.6
-  typescript: 4.3.5
+  '@types/node': 16.7.7
+  typescript: 4.4.2
 
 devDependencies:
   prettier: 2.3.2
 
 packages:
 
-  /@types/node/16.4.6:
-    resolution: {integrity: sha512-FKyawK3o5KL16AwbeFajen8G4K3mmqUrQsehn5wNKs8IzlKHE8TfnSmILXVMVziAEcnB23u1RCFU1NT6hSyr7Q==}
+  /@types/node/16.7.7:
+    resolution: {integrity: sha512-bxWC4rgIF/FjM7JsPvpk6ZKGITgw27qsYCbi6h4kWZWYpchOLENgvFaRBZUc64Q/M1y+X2EteahRbyo8QFCKdw==}
     dev: false
 
   /prettier/2.3.2:
@@ -24,8 +24,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript/4.3.5:
-    resolution: {integrity: sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==}
+  /typescript/4.4.2:
+    resolution: {integrity: sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: false
