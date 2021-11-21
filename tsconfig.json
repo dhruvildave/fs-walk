@@ -4,7 +4,7 @@
     "module": "esnext",
     "declaration": true,
     "declarationDir": "dist/types",
-    "sourceMap": true,
+    "sourceMap": false,
     "outDir": "./dist",
     "rootDir": "./src",
     "removeComments": true,
@@ -29,6 +29,7 @@
     "pretty": true,
     "noUncheckedIndexedAccess": true,
     "importsNotUsedAsValues": "error",
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "incremental": true
   }
 }
