@@ -29,7 +29,6 @@
     "pretty": true,
     "noUncheckedIndexedAccess": true,
     "importsNotUsedAsValues": "error",
-    "noEmitOnError": true,
-    "incremental": true
+    "noEmitOnError": true
   }
 }
