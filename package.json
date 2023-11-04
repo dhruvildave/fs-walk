@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build",
-    "format": "prettier --write \"**/*.{ts,md,json,yaml}\""
+    "format": "prettier -w \"**/*.{ts,md,json,yaml}\""
   },
   "keywords": [
     "fs",
@@ -19,12 +19,12 @@
   "author": "Dhruvil Dave <dhruvil.dave@outlook.com> (https://dhruvildave.com)",
   "license": "Apache-2.0",
   "dependencies": {
-    "@types/node": "^18.11.10",
-    "typescript": "^4.9.3"
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
   },
   "type": "module",
   "devDependencies": {
-    "prettier": "^2.8.0"
+    "prettier": "^3.0.3"
   },
   "prettier": {
     "singleQuote": true,

@@ -28,7 +28,6 @@
     "forceConsistentCasingInFileNames": true,
     "pretty": true,
     "noUncheckedIndexedAccess": true,
-    "importsNotUsedAsValues": "error",
     "noEmitOnError": true,
     "noImplicitOverride": true
   }
