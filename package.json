@@ -1,6 +1,6 @@
 {
   "name": "@0xdd/fs-walk",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "dist/main.js",
   "repository": {
     "type": "git",
@@ -19,12 +19,12 @@
   "author": "Dhruvil Dave <dhruvil.dave@outlook.com> (https://dhruvildave.com)",
   "license": "Apache-2.0",
   "dependencies": {
-    "@types/node": "^20.8.10",
-    "typescript": "^5.2.2"
+    "@types/node": "^20.11.26",
+    "typescript": "^5.4.2"
   },
   "type": "module",
   "devDependencies": {
-    "prettier": "^3.0.3"
+    "prettier": "^3.2.5"
   },
   "prettier": {
     "singleQuote": true,
