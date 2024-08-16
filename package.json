@@ -1,6 +1,6 @@
 {
   "name": "@0xdd/fs-walk",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "dist/main.js",
   "repository": {
     "type": "git",

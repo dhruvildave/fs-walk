@@ -5,6 +5,9 @@
     "parser": {
       "syntax": "typescript"
     },
-    "target": "esnext"
+    "target": "esnext",
+    "minify": {
+      "mangle": true
+    }
   }
 }
