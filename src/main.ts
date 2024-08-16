@@ -34,12 +34,12 @@ export interface WalkOptions {
 }
 
 function _createWalkEntrySync(p: string): WalkEntry {
-  p = path.normalize(p);
-  const name = path.basename(p);
-  const info = fs.statSync(p);
+  const normalizedPath = path.normalize(p);
+  const name = path.basename(normalizedPath);
+  const info = fs.statSync(normalizedPath);
   return {
     name,
-    path: p,
+    path: normalizedPath,
     isFile: info.isFile,
     isDirectory: info.isDirectory,
     isSymbolicLink: info.isSymbolicLink,
@@ -47,9 +47,9 @@ function _createWalkEntrySync(p: string): WalkEntry {
 }
 
 async function _createWalkEntry(p: string): Promise<WalkEntry> {
-  p = path.normalize(p);
-  const name = path.basename(p);
-  const info = await fs.promises.stat(p);
+  const normalizedPath = path.normalize(p);
+  const name = path.basename(normalizedPath);
+  const info = await fs.promises.stat(normalizedPath);
   return {
     name,
     path: p,

@@ -1,6 +1,6 @@
 {
   "name": "@0xdd/fs-walk",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "dist/main.js",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "types": "dist/types/main.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "swc src/main.ts -o dist/main.js && tsc --emitDeclarationOnly",
     "prepublish": "npm run build",
     "format": "prettier -w \"**/*.{ts,md,json,yaml}\""
   },
@@ -18,13 +18,12 @@
   ],
   "author": "Dhruvil Dave <dhruvil.dave@outlook.com> (https://dhruvildave.com)",
   "license": "Apache-2.0",
-  "dependencies": {
-    "@types/node": "^20.11.26",
-    "typescript": "^5.4.2"
-  },
   "type": "module",
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "@swc/cli": "^0.4.0",
+    "@types/node": "^22.3.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
   },
   "prettier": {
     "singleQuote": true,

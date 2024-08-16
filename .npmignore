@@ -2,3 +2,6 @@
 pnpm-lock.yaml
 LICENSE
 src/
+.swcrc
+CODEOWNERS
+tsconfig.json
