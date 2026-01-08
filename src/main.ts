@@ -15,11 +15,10 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-export interface WalkEntry
-  extends Pick<
-    fs.Dirent,
-    'name' | 'isFile' | 'isDirectory' | 'isSymbolicLink'
-  > {
+export interface WalkEntry extends Pick<
+  fs.Dirent,
+  'name' | 'isFile' | 'isDirectory' | 'isSymbolicLink'
+> {
   path: string;
 }
 
