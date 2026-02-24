@@ -1,6 +1,6 @@
 {
   "name": "@0xdd/fs-walk",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "main": "dist/main.js",
   "repository": {
     "type": "git",
@@ -20,8 +20,8 @@
   "license": "Apache-2.0",
   "type": "module",
   "devDependencies": {
-    "@swc/cli": "^0.7.10",
-    "@types/node": "^25.2.0",
+    "@swc/cli": "^0.8.0",
+    "@types/node": "^25.3.0",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   },
